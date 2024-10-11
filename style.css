@@ -1,0 +1,97 @@
+.nombre{
+    font-size: 2.5em;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Negro con opacidad */
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.navegador{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 2px -2px;
+}
+.lista a{
+    color: white;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+.lista a:hover {
+    color: #d5dbdb;
+    border-bottom: 2px solid #555;
+}
+h1{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 20px;
+}
+.lista{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap: 40px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+}
+.texto{
+    max-width: 45%;
+    font-size: 1em;;
+}
+i{
+    color: black;
+}
+img{
+    width: 420px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-right: 150px
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    /* position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8; /* O el color de fondo que prefieras */
+    /*padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.footer-icons{
+    margin: 0 15px;
+    font-size: 24px; /* Puedes ajustar el tamaño de los iconos */
+    color: black; /* O el color que prefieras para los iconos */
+}
+.footer-icons a i:hover{
+    color: #555;
+}
+.nombre-footer{
+    color: #aeb6bf;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
